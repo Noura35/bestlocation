@@ -107,11 +107,12 @@ public class HomeFragment extends Fragment {
         @Override
         protected void onPostExecute(Object o) {
             alert.dismiss();
-            binding.lv.setAdapter(new ArrayAdapter<>(
+
+          /* binding.lv.setAdapter(new ArrayAdapter<>(
                     getActivity(),
                     android.R.layout.simple_list_item_1,
                     data
-            ));
+            ));*/
 
         }
 
